@@ -11,6 +11,14 @@ Files associated with this solution:
 * [Folder containing screen shots of output: /Submission/Screenshots](./Submission/Screenshots)
 * [Address book user images: /Submission/Images](./Submission/Images)
 
+
+# Output Screen Shots
+![alt="Screen Shot Step 4 showing blockchain with multiple blocks"](./Submission/Screenshots/Screenshot-step-4.png)
+**Screen Shot Step 4 showing blockchain with multiple blocks**
+
+![alt="Screen Shot Step 5 showing successful verification of the blockchain"](./Submission/Screenshots/Screenshot-step-5.png)
+**Screen Shot Step 5 showing successful verification of the blockchain**
+
 ---
 
 # Technologies
@@ -62,7 +70,7 @@ The following are required:
 ```
 pip install streamlit
 ```
-##Links to further information:
+## Links to further information:
 * [streamlit](https://docs.streamlit.io/get-started/installation)
 
 

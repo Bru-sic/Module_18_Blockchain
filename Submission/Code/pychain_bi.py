@@ -160,7 +160,6 @@ class PyChain:
 
             calculated_hash = block.hash_block()
 
-        print(f"Proof of Work satisfied for difficulty level {self.difficulty} at nonce {block.nonce} with hash {calculated_hash}")
         return block
 
     # PyChain Add Block method - calls proof of work and then adds a block to the PyChain
@@ -422,6 +421,7 @@ else:
 md_text = "|**Field**|**Value**|\r\n|---|---|\r\n"
 md_text += f"|Record #:|{selected_block:,}|\r\n"
 md_text += f"|Created:|{pychain.chain[selected_block].timestamp}|\r\n"
+md_text += f"|Creator Id:|{pychain.chain[selected_block].creator_id}|\r\n"
 md_text += f"|Previous Hash:|{pychain.chain[selected_block].prev_hash[0:32]}{chr(0x200B)}{pychain.chain[selected_block].prev_hash[32:]}|\r\n" # Split the hash as it is too long
 md_text += f"|Nonce:|{pychain.chain[selected_block].nonce:,}|\r\n"
 if selected_block == 0:
